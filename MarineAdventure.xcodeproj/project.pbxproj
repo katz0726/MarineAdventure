@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66F62972BAF17DC00CBD0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F62962BAF17DC00CBD0BF /* AppDelegate.swift */; };
+		C66F62992BAF17DC00CBD0BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F62982BAF17DC00CBD0BF /* SceneDelegate.swift */; };
+		C66F629B2BAF17DC00CBD0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F629A2BAF17DC00CBD0BF /* ViewController.swift */; };
+		C66F629E2BAF17DC00CBD0BF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C66F629D2BAF17DC00CBD0BF /* Base */; };
+		C66F62A02BAF17DD00CBD0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66F629F2BAF17DD00CBD0BF /* Assets.xcassets */; };
+		C66F62A32BAF17DD00CBD0BF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C66F62A22BAF17DD00CBD0BF /* Base */; };
+		C66F62AE2BAF17DD00CBD0BF /* MarineAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F62AD2BAF17DD00CBD0BF /* MarineAdventureTests.swift */; };
+		C66F62B82BAF17DD00CBD0BF /* MarineAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F62B72BAF17DD00CBD0BF /* MarineAdventureUITests.swift */; };
+		C66F62BA2BAF17DD00CBD0BF /* MarineAdventureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F62B92BAF17DD00CBD0BF /* MarineAdventureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C66F62AA2BAF17DD00CBD0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66F628B2BAF17DC00CBD0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66F62922BAF17DC00CBD0BF;
+			remoteInfo = MarineAdventure;
+		};
+		C66F62B42BAF17DD00CBD0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66F628B2BAF17DC00CBD0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66F62922BAF17DC00CBD0BF;
+			remoteInfo = MarineAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C66F62932BAF17DC00CBD0BF /* MarineAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarineAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66F62962BAF17DC00CBD0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C66F62982BAF17DC00CBD0BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C66F629A2BAF17DC00CBD0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C66F629D2BAF17DC00CBD0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C66F629F2BAF17DD00CBD0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C66F62A22BAF17DD00CBD0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C66F62A42BAF17DD00CBD0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66F62A92BAF17DD00CBD0BF /* MarineAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarineAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66F62AD2BAF17DD00CBD0BF /* MarineAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAdventureTests.swift; sourceTree = "<group>"; };
+		C66F62B32BAF17DD00CBD0BF /* MarineAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarineAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66F62B72BAF17DD00CBD0BF /* MarineAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAdventureUITests.swift; sourceTree = "<group>"; };
+		C66F62B92BAF17DD00CBD0BF /* MarineAdventureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAdventureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66F62902BAF17DC00CBD0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62A62BAF17DD00CBD0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62B02BAF17DD00CBD0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66F628A2BAF17DC00CBD0BF = {
+			isa = PBXGroup;
+			children = (
+				C66F62952BAF17DC00CBD0BF /* MarineAdventure */,
+				C66F62AC2BAF17DD00CBD0BF /* MarineAdventureTests */,
+				C66F62B62BAF17DD00CBD0BF /* MarineAdventureUITests */,
+				C66F62942BAF17DC00CBD0BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66F62942BAF17DC00CBD0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66F62932BAF17DC00CBD0BF /* MarineAdventure.app */,
+				C66F62A92BAF17DD00CBD0BF /* MarineAdventureTests.xctest */,
+				C66F62B32BAF17DD00CBD0BF /* MarineAdventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66F62952BAF17DC00CBD0BF /* MarineAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				C66F62962BAF17DC00CBD0BF /* AppDelegate.swift */,
+				C66F62982BAF17DC00CBD0BF /* SceneDelegate.swift */,
+				C66F629A2BAF17DC00CBD0BF /* ViewController.swift */,
+				C66F629C2BAF17DC00CBD0BF /* Main.storyboard */,
+				C66F629F2BAF17DD00CBD0BF /* Assets.xcassets */,
+				C66F62A12BAF17DD00CBD0BF /* LaunchScreen.storyboard */,
+				C66F62A42BAF17DD00CBD0BF /* Info.plist */,
+			);
+			path = MarineAdventure;
+			sourceTree = "<group>";
+		};
+		C66F62AC2BAF17DD00CBD0BF /* MarineAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				C66F62AD2BAF17DD00CBD0BF /* MarineAdventureTests.swift */,
+			);
+			path = MarineAdventureTests;
+			sourceTree = "<group>";
+		};
+		C66F62B62BAF17DD00CBD0BF /* MarineAdventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C66F62B72BAF17DD00CBD0BF /* MarineAdventureUITests.swift */,
+				C66F62B92BAF17DD00CBD0BF /* MarineAdventureUITestsLaunchTests.swift */,
+			);
+			path = MarineAdventureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66F62922BAF17DC00CBD0BF /* MarineAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66F62BD2BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventure" */;
+			buildPhases = (
+				C66F628F2BAF17DC00CBD0BF /* Sources */,
+				C66F62902BAF17DC00CBD0BF /* Frameworks */,
+				C66F62912BAF17DC00CBD0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarineAdventure;
+			productName = MarineAdventure;
+			productReference = C66F62932BAF17DC00CBD0BF /* MarineAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C66F62A82BAF17DD00CBD0BF /* MarineAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66F62C02BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventureTests" */;
+			buildPhases = (
+				C66F62A52BAF17DD00CBD0BF /* Sources */,
+				C66F62A62BAF17DD00CBD0BF /* Frameworks */,
+				C66F62A72BAF17DD00CBD0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66F62AB2BAF17DD00CBD0BF /* PBXTargetDependency */,
+			);
+			name = MarineAdventureTests;
+			productName = MarineAdventureTests;
+			productReference = C66F62A92BAF17DD00CBD0BF /* MarineAdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C66F62B22BAF17DD00CBD0BF /* MarineAdventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66F62C32BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventureUITests" */;
+			buildPhases = (
+				C66F62AF2BAF17DD00CBD0BF /* Sources */,
+				C66F62B02BAF17DD00CBD0BF /* Frameworks */,
+				C66F62B12BAF17DD00CBD0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66F62B52BAF17DD00CBD0BF /* PBXTargetDependency */,
+			);
+			name = MarineAdventureUITests;
+			productName = MarineAdventureUITests;
+			productReference = C66F62B32BAF17DD00CBD0BF /* MarineAdventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66F628B2BAF17DC00CBD0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C66F62922BAF17DC00CBD0BF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C66F62A82BAF17DD00CBD0BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C66F62922BAF17DC00CBD0BF;
+					};
+					C66F62B22BAF17DD00CBD0BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C66F62922BAF17DC00CBD0BF;
+					};
+				};
+			};
+			buildConfigurationList = C66F628E2BAF17DC00CBD0BF /* Build configuration list for PBXProject "MarineAdventure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C66F628A2BAF17DC00CBD0BF;
+			productRefGroup = C66F62942BAF17DC00CBD0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66F62922BAF17DC00CBD0BF /* MarineAdventure */,
+				C66F62A82BAF17DD00CBD0BF /* MarineAdventureTests */,
+				C66F62B22BAF17DD00CBD0BF /* MarineAdventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66F62912BAF17DC00CBD0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66F62A02BAF17DD00CBD0BF /* Assets.xcassets in Resources */,
+				C66F62A32BAF17DD00CBD0BF /* Base in Resources */,
+				C66F629E2BAF17DC00CBD0BF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62A72BAF17DD00CBD0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62B12BAF17DD00CBD0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66F628F2BAF17DC00CBD0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66F629B2BAF17DC00CBD0BF /* ViewController.swift in Sources */,
+				C66F62972BAF17DC00CBD0BF /* AppDelegate.swift in Sources */,
+				C66F62992BAF17DC00CBD0BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62A52BAF17DD00CBD0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66F62AE2BAF17DD00CBD0BF /* MarineAdventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66F62AF2BAF17DD00CBD0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66F62B82BAF17DD00CBD0BF /* MarineAdventureUITests.swift in Sources */,
+				C66F62BA2BAF17DD00CBD0BF /* MarineAdventureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66F62AB2BAF17DD00CBD0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66F62922BAF17DC00CBD0BF /* MarineAdventure */;
+			targetProxy = C66F62AA2BAF17DD00CBD0BF /* PBXContainerItemProxy */;
+		};
+		C66F62B52BAF17DD00CBD0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66F62922BAF17DC00CBD0BF /* MarineAdventure */;
+			targetProxy = C66F62B42BAF17DD00CBD0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C66F629C2BAF17DC00CBD0BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66F629D2BAF17DC00CBD0BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C66F62A12BAF17DD00CBD0BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66F62A22BAF17DD00CBD0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66F62BB2BAF17DD00CBD0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C66F62BC2BAF17DD00CBD0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66F62BE2BAF17DD00CBD0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarineAdventure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C66F62BF2BAF17DD00CBD0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarineAdventure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C66F62C12BAF17DD00CBD0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarineAdventure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarineAdventure";
+			};
+			name = Debug;
+		};
+		C66F62C22BAF17DD00CBD0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarineAdventure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarineAdventure";
+			};
+			name = Release;
+		};
+		C66F62C42BAF17DD00CBD0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarineAdventure;
+			};
+			name = Debug;
+		};
+		C66F62C52BAF17DD00CBD0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.MarineAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarineAdventure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66F628E2BAF17DC00CBD0BF /* Build configuration list for PBXProject "MarineAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66F62BB2BAF17DD00CBD0BF /* Debug */,
+				C66F62BC2BAF17DD00CBD0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66F62BD2BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66F62BE2BAF17DD00CBD0BF /* Debug */,
+				C66F62BF2BAF17DD00CBD0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66F62C02BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66F62C12BAF17DD00CBD0BF /* Debug */,
+				C66F62C22BAF17DD00CBD0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66F62C32BAF17DD00CBD0BF /* Build configuration list for PBXNativeTarget "MarineAdventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66F62C42BAF17DD00CBD0BF /* Debug */,
+				C66F62C52BAF17DD00CBD0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66F628B2BAF17DC00CBD0BF /* Project object */;
+}
